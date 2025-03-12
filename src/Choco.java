@@ -12,6 +12,5 @@ this.skum = skum;
 public Choco(String skum, String size){
 this.skum = skum;
 this.size = Size.valueOf(size);
-
 }
 }
