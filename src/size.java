@@ -1,7 +1,7 @@
-enum cafeeSize {
+public enum size {
+
         SMALL,
         MEDIUM,
-        LARGE,
+        LARG,
     }
-
 
