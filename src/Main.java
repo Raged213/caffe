@@ -4,6 +4,9 @@ public class Main {
     public static void main(String[] args) {
         //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see how IntelliJ IDEA suggests fixing it.
+
+        run();
+
         System.out.printf("Hello and welcome! o/");
 
         for (int i = 1; i <= 55; i++) {
@@ -14,5 +17,11 @@ public class Main {
         }
 
 
+    }
+
+    public static void run() {
+
+        Size size = Size.SMALL;
+        System.out.println(size);
     }
 }
