@@ -4,8 +4,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         welcomeMessage();
-        run();
         coffeeChoice();
+
+
+        run();
 
     }
 
@@ -35,7 +37,9 @@ public class Main {
                 "7: Chokoladedrik (kan tilføjes flødeskum) \n");
         lineBreaker();
         Scanner sc = new Scanner(System.in);
-        System.out.print("1 - 7 ");
+        System.out.print("please choice a number from 1 - 7: ");
+        int choice = sc.nextInt();
+        System.out.println("Your choice was: " + choice);
 
     }
 
