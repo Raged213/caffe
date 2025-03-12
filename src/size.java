@@ -1,8 +1,7 @@
-public enum size {
-
-    enum cafeeSize {
+enum cafeeSize {
         SMALL,
         MEDIUM,
-        LARG,
+        LARGE,
     }
-}
+
+
