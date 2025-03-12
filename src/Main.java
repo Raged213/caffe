@@ -24,6 +24,7 @@ public class Main {
     //Ask the user what they want
 
     public static void coffeeChoice(){
+        lineBreaker();
         System.out.println("Here are the option we have\n" +
                 "1: Black Coffee\n" +
                 "2: Espresso\n" +
@@ -32,6 +33,7 @@ public class Main {
                 "5: Latte Machiatto \n" +
                 "6: Kakaomælk (kan tilføjes flødeskum) \n" +
                 "7: Chokoladedrik (kan tilføjes flødeskum) \n");
+        lineBreaker();
         Scanner sc = new Scanner(System.in);
         System.out.print("1 - 7 ");
 
