@@ -1,4 +1,4 @@
-enum Size {
+enum cafeeSize {
         SMALL,
         MEDIUM,
         LARGE,

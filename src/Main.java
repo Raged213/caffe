@@ -16,8 +16,5 @@ public class Main {
 
         Size size = Size.SMALL;
         System.out.println(size);
-
-
-
     }
 }
