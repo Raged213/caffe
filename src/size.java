@@ -1,7 +1,7 @@
-public enum size {
-
+enum Size {
         SMALL,
         MEDIUM,
-        LARG,
+        LARGE,
     }
+
 
