@@ -1,16 +1,23 @@
 public class Choco {
-    Size size;
-    private String skum;
+    private Size size;
+    private boolean skum;
 
-public String getSkum() {
-return skum;
-}
-public void setSkum(String skum) {
-this.skum = skum;
-}
+    public boolean getSkum() {
+        return skum;
+    }
 
-public Choco(String skum, String size){
-this.skum = skum;
-this.size = Size.valueOf(size);
-}
+    public void setSkum(boolean skum) {
+        this.skum = skum;
+    }
+
+    public Choco(boolean skum, String size) {
+        this.skum = skum;
+        this.size = Size.valueOf(size);
+    }
+
+    @Override
+
+    public String toString() {
+        return this.size + " - " + this.skum;
+    }
 }
