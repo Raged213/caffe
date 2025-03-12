@@ -41,6 +41,17 @@ public class Main {
         int choice = sc.nextInt();
         System.out.println("Your choice was: " + choice);
 
+        switch(choice) {
+            case 1:
+                System.out.println("dsfsdfs");
+                break;
+            case 2:
+                break;
+            default:
+                break;
+
+        }
+
     }
 
 
